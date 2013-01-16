@@ -1,0 +1,30 @@
+nav{
+	float: left;
+	background-color: #f0f;
+	background-image: url("../images/Gradient background.jpg");
+	padding: 100px 25px;
+	}
+	
+ul{
+	list-style-type: none;
+	}
+	
+#logo{
+	clear: both;
+	}
+	
+#logocontactinfo{
+	clear: left;
+	}
+
+body{
+	margin: 0 auto;
+	width: 100%;
+	}
+	
+ol{
+	list-style-type: none;
+	float: left;
+	padding: 75px;
+	width: 50%
+	}		
