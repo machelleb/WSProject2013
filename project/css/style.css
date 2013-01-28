@@ -1,16 +1,20 @@
 nav{
-	float: left;
-	background-color: #f0f;
 	background-image: url("../images/Gradient background.jpg");
-	padding: 100px 25px;
+	}
+	
+#logo{
+	float: left;
 	}
 	
 ul{
 	list-style-type: none;
+	clear: left;
+	width: 100%;
 	}
 	
-#logo{
-	clear: both;
+ul li{
+	width: 15.625%; /*960/150*/
+	float: left;
 	}
 	
 #logocontactinfo{
@@ -27,4 +31,47 @@ ol{
 	float: left;
 	padding: 75px;
 	width: 50%
+	}
+#morebaskets{
+	clear:both;
+	}
+
+footer{
+	clear: both;
 	}		
+
+@media screen and (min-width: 768px) and (max-width: 959px){
+	h2 {font-size: 2.375em;}	
+	}
+	
+@media only screen and (min-width: 480px) and (max-width: 767px){
+	h1 {font-size: 1.7em;
+		padding: 50px 0;
+		clear: both;}
+	ul li{ clear: both;}
+	#logo {clear: left;
+			margin: 0 0;
+			padding: 20px 0 0 0;}
+	}
+	
+@media only screen and (max-width: 479px){
+	#logo {clear: both;
+			margin: 0 0;
+			padding: 20px 0 0 0;}
+	h1 {font-size: 1.6em;
+		text-align: center;
+		padding: 10px 0;
+		margin: 0 auto;
+		clear: both;}
+	ul li{ clear: both;}
+	#PicofMap {display: none;}
+	#groupevents {display: none;}
+	#spouseprograms {display: none;}
+	#teambuilding {display: none;}
+	#photo1 {display: none;}
+	#photo2 {display: none;}
+	#photo3 {display: none;}
+	#photo4 {display: none;}
+	#recipes {display: none;}
+	#giftcertificate {display: none;}
+	}
