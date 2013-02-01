@@ -1,11 +1,40 @@
-nav{
-	background-image: url("../images/Gradient background.jpg");
+.logo{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	}
+
+.homepagepic{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 2em;
 	}
 	
-#logo{
-	float: left;
+.bookaclass{
+	text-align: center;
+	padding-bottom: 2em;
+	font-size: .65em;
 	}
 	
+.picofmap{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	}
+
+.businesstitle{
+	font-family: "Monotype Corsiva";
+	color: #669966;
+	font-size: 3em;
+	}
+
+.shipping{
+	font-style: italic;
+	font-family: corbel;
+	font-size: 1.2em;
+	}		
+			
 ul{
 	list-style-type: none;
 	clear: left;
@@ -16,55 +45,125 @@ ul li{
 	width: 15.625%; /*960/150*/
 	float: left;
 	}
-	
-#logocontactinfo{
-	clear: left;
+
+.contactinfo{
+	text-align: center;
+	width: 100%;
 	}
 
 body{
 	margin: 0 auto;
 	width: 100%;
-	}
-	
-ol{
-	list-style-type: none;
-	float: left;
-	padding: 75px;
-	width: 50%
-	}
-#morebaskets{
-	clear:both;
+	font-family: helvetica;
+	background: -moz-linear-gradient(top, #ffffff 0%, #ffffcc 50%, #ff9966 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), 
+	color-stop(50%,#ffffcc), color-stop(100%,#ff9966));
+	background: -webkit-linear-gradient(top, #ffffff 0%,#ffffcc 50%,#ff9966 100%);
+	background: -o-linear-gradient(top, #ffffff 0%,#ffffcc 50%,#ff9966 100%);
+	background: linear-gradient(to bottom, 3ffffff 0%,#ffffcc 50%,#ff9966 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', 
+	endColorstr='#ff9966', GradientType=0 );
 	}
 
-footer{
+.slogan{
+	text-align: center;
+	font-size: .75em;
+	}
+	
+.directions{
+	text-align: center;
+	padding: 2em 0em 1em 0em;
+	}
+	
+#morebaskets{
+	clear:both;
+	}	
+	
+.aboutusinfo{
+	width: 75%;
+	margin-left: auto;
+	margin-right: auto;
+	}
+
+h1{
+	font-family: "Monotype Corsiva";
+	color: #669966;
+	font-size: 3.2em;
+	font-weight: normal;
+	text-align: center;
+	padding-top: 1em;
+	}
+	
+#groupevents{
+	width: 14.58333333%;
+	height: 17.770833333%;
+	padding: 2em;
+	float: left;
+	}
+
+.groups{
+	width: 80%;
+	float: right;
+	}
+
+#spouseprograms{
+	width: 14.58333333%;
+	height: 17.770833333%;
+	padding: 2em;
+	float: left;
+	}
+
+.spouse{
+	width: 80%;
+	float: right;
+	}
+
+#teambuilding{
+	width: 14.58333333%;
+	height: 17.770833333%;
+	padding: 2em;
+	float: left;
+	}
+
+.teams{
+	width: 80%;
+	float: right;
+	}
+	
+.empty{
 	clear: both;
+	}
+
+.cancellation{
+	clear: both;
+	}
+
+h2, h3, h4, h5{
+	font-family: corbel;
+	font-size: 1.7em;
+	}
+		
+footer{
+	float: right;
+	padding: 2em 0em;
 	}		
+
 
 @media screen and (min-width: 768px) and (max-width: 959px){
 	h2 {font-size: 2.375em;}	
 	}
 	
 @media only screen and (min-width: 480px) and (max-width: 767px){
-	h1 {font-size: 1.7em;
-		padding: 50px 0;
-		clear: both;}
 	ul li{ clear: both;}
-	#logo {clear: left;
-			margin: 0 0;
-			padding: 20px 0 0 0;}
 	}
 	
 @media only screen and (max-width: 479px){
-	#logo {clear: both;
-			margin: 0 0;
-			padding: 20px 0 0 0;}
-	h1 {font-size: 1.6em;
-		text-align: center;
+	h1 {text-align: center;
 		padding: 10px 0;
 		margin: 0 auto;
 		clear: both;}
 	ul li{ clear: both;}
-	#PicofMap {display: none;}
+	.picofmap {display: none;}
 	#groupevents {display: none;}
 	#spouseprograms {display: none;}
 	#teambuilding {display: none;}
