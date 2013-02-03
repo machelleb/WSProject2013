@@ -78,13 +78,31 @@ body{
 #morebaskets{
 	clear:both;
 	}	
-	
+
+.homepage{
+	width: 75%;
+	margin-left: auto;
+	margin-right: auto;
+	}
+		
 .aboutusinfo{
 	width: 75%;
 	margin-left: auto;
 	margin-right: auto;
 	}
 
+.cookingclasses{
+	width: 75%;
+	margin-left: auto;
+	margin-right: auto;
+	}
+
+.privateparties{
+	width: 75%;
+	margin-left: auto;
+	margin-right: auto;
+	}
+		
 h1{
 	font-family: "Monotype Corsiva";
 	color: #669966;
@@ -95,38 +113,35 @@ h1{
 	}
 	
 #groupevents{
-	width: 14.58333333%;
-	height: 17.770833333%;
+	width: 25%;
 	padding: 2em;
 	float: left;
 	}
 
 .groups{
-	width: 80%;
+	width: 65%;
 	float: right;
 	}
 
 #spouseprograms{
-	width: 14.58333333%;
-	height: 17.770833333%;
+	width: 25%;
 	padding: 2em;
 	float: left;
 	}
 
 .spouse{
-	width: 80%;
+	width: 65%;
 	float: right;
 	}
 
 #teambuilding{
-	width: 14.58333333%;
-	height: 17.770833333%;
+	width: 25%;
 	padding: 2em;
 	float: left;
 	}
 
 .teams{
-	width: 80%;
+	width: 65%;
 	float: right;
 	}
 	
@@ -138,11 +153,36 @@ h1{
 	clear: both;
 	}
 
-h2, h3, h4, h5{
+#theSpread{
+	width: 22%;
+	float: left;
+	padding: 0em 2em;
+	}
+
+#kitleft{
+	width: 28%;
+	float: left;
+	padding-right: 2em;
+	}
+	
+#watchOutTomas{
+	width: 28%;
+	float: left;
+	}
+ol{
+	list-style-type: none;
+	}
+		
+h2, h3, h4, h5, h6{
 	font-family: corbel;
 	font-size: 1.7em;
 	}
-		
+	
+.shopdesc{
+	text-align: center;
+	font-weight: bold;
+	}
+			
 footer{
 	float: right;
 	padding: 2em 0em;
