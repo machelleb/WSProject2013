@@ -51,6 +51,26 @@ ul li{
 	width: 100%;
 	}
 
+.newsrecipes{
+	border: 10px groove #999933;
+	padding: 0em 2em 2em 2em;
+	margin-bottom: 2em;
+	}
+
+.cobbler{
+	width: 40%;
+	float: left;
+	}
+	
+.equipment{
+	width: 40%;
+	float: right;
+	}
+	
+#icecream{
+	clear: both;
+	}
+		
 body{
 	margin: 0 auto;
 	width: 100%;
@@ -211,6 +231,21 @@ h2, h3, h4, h5, h6{
 .shopdesc{
 	text-align: center;
 	font-weight: bold;
+	}
+
+.ingredients{
+	font-weight: bold;
+	font-size: 1.1em;
+	}
+	
+.instructions{
+	font-weight: bold;
+	font-size: 1.1em;
+	margin-top: 2em;
+	}
+
+.recipe{
+	font-size: 1.3em;
 	}
 			
 footer{
