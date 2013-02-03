@@ -102,6 +102,12 @@ body{
 	margin-left: auto;
 	margin-right: auto;
 	}
+
+.newsletter{
+	width: 75%;
+	margin-left: auto;
+	margin-right: auto;
+	}
 		
 h1{
 	font-family: "Monotype Corsiva";
@@ -169,6 +175,30 @@ h1{
 	width: 28%;
 	float: left;
 	}
+
+#kitchenbot{
+	width: 22%;
+	float: left;
+	padding-right: 2em;
+	}
+
+#fullkitch{
+	width: 22%;
+	float: left;
+	padding-right: 2em;
+	}
+
+#kids{
+	width: 19%;
+	float: left;
+	padding-right: 2em;
+	}
+
+#partyphoto{
+	width: 22%
+	float: left;
+	}
+	
 ol{
 	list-style-type: none;
 	}
